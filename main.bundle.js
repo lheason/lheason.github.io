@@ -164,7 +164,7 @@ module.exports = ".text-style{\n    white-space: pre-wrap\n}\n\n.input {\n    bo
 /***/ 616:
 /***/ (function(module, exports) {
 
-module.exports = "<h1>\n  {{title}}\n</h1>\n<input class=\"input\"\n       #name\n       (keyup.enter)=\"onClickMe(name.value)\">\n<button (click)=\"onClickMe(name.value)\">產生</button>\n<p class=\"text-style\">\n  {{content}}\n</p>\n"
+module.exports = "<h1>\n  {{title}}\n</h1>\n<input class=\"input\"\n       placeholder=\"姓名\"\n       #name\n       (keyup.enter)=\"onClickMe(name.value)\">\n<button (click)=\"onClickMe(name.value)\">產生</button>\n<p class=\"text-style\">\n  {{content}}\n</p>\n"
 
 /***/ }),
 
