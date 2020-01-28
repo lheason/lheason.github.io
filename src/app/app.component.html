@@ -1,0 +1,10 @@
+<h1>
+  {{title}}
+</h1>
+<input class="input"
+       #name
+       (keyup.enter)="onClickMe(name.value)">
+<button (click)="onClickMe(name.value)">產生</button>
+<p class="text-style">
+  {{content}}
+</p>
